@@ -1,0 +1,132 @@
+body{
+	margin: 0px;
+}
+.header{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	height: 100px;
+	width: 100%;
+	background-color: #0a2d42;
+	z-index: 100;
+}
+
+.div-logo{
+	height: 100%;
+	float: left;
+	text-align: center;
+	margin: 10px;
+}
+
+.image-logo{
+		height: 100px;
+		width: 150px;
+}
+
+.nav{
+	float: right;
+	height: 100%;
+}
+
+.nav a{
+	color: white;
+	font-size: 15px;
+	padding-right: 20px;
+	font-weight: 700;
+	font-family: "Helvetica Nueu";
+	padding-top: 12%;
+	display: inline-block;
+}
+
+.site-content{
+	width: 100%;
+	position: absolute;
+	top: 78px;
+}
+.image-content{
+	background-image: url("img/img1.jpg");
+	height: 700px;
+	width: 100%;
+	text-align: center;
+}
+
+.quote{
+	color: white;
+	font-family: "Helvetica Nueu";
+	position: relative;
+	top: 10%;
+}
+
+
+.about-img{
+	width: 30%;
+	height: 30%;
+}
+
+
+.about-content{
+
+	position: relative;
+	top: 150px;
+	text-align: center;
+}
+
+
+.contact{
+	text-align: center;
+}
+
+.button{
+	position: absolute;
+	top: 300px;
+	left: 550px;
+	text-align: center;
+	color: blue;
+	font-size: 70px;
+	font-style: italic;
+	opacity: 0.7;
+
+}
+
+.donate{
+	position: relative;
+	top: 300px;
+	left: 0%;
+}
+
+.aligned{
+            display: flex;
+            align-items: center;
+        }
+          
+span {
+        padding: 10px;
+        font-size: 50px;
+        font-style: italic;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#0a2d42;
+   padding: 10px;
+   color: white;
+   text-align: center;
+}
+
+.copy{
+	margin-top: 20px;
+	float: left;
+}
+
+.phone{
+	float: left;
+	width: 50%;
+}
+
+.email{
+	float: left;
+	width: 50%
+}
